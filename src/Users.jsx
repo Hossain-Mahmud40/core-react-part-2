@@ -5,7 +5,7 @@ export default function Users({ fetchUsers }) {
   console.log(users);
   return (
     <div className="card">
-      <h3>Users: {users.name} </h3>
+      <h3>Users: {users.length} </h3>
     </div>
   );
 }
